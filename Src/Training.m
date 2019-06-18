@@ -11,7 +11,7 @@ A = double(data_train) - tampung_m;
 
 L = A'*A;
 
-[V D] = svd(L); 
+[V D] = eig(L); 
 
 assignin('base','D',D);
 
