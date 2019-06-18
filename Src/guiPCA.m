@@ -92,7 +92,7 @@ function resetButton_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 cla(handles.axesPic)
 cla(handles.axes2)
-set(handles.edit2,'String','')
+set(handles.edit2,'String','Name')
         
 
 % --- Executes on button press in browseButton.
